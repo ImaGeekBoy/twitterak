@@ -1,1 +1,0 @@
-g++ main.cpp twitterak.cpp menu.cpp account.cpp signup.cpp password.cpp checkuser.cpp loggedin.cpp tweet.cpp help.cpp credits.cpp edit.cpp stringtolower.cpp
