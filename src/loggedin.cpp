@@ -378,7 +378,7 @@ void loggedin(account *user)
         {
             order.erase(found2, found2 + 7);
             order.erase(remove_if(order.begin(), order.end(), isspace), order.end());
-            if ( order[0] == '@' )
+            if ( order[0] != '@' )
             {
                 order.insert( order.begin(), '@');
             }
